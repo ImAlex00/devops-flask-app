@@ -8,7 +8,7 @@ def say_hello():
 
 @app.route('/about')
 def display_about():
-        return '<p>This runs on the <a href="https://flask.palletsprojects.com/en/stable/">Flask</a> framework</p> <p><a href="/">Return</a></p>'
+        return '<p>This runs on the <a href="https://flask.palletsprojects.com/en/stable/">Flask</a> framework</p> <p> This was coded on <a href="https://python.org/">Python</a> </p> <p><a href="/">Return</a></p>'
 
 @app.route('/contact')
 def display_contact():
